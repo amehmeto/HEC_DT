@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Formulaire</title>
+    </head>
+
+    <body>
+      <h1>Formulaire d'admission aux urgences</h1>
+        <form method="post" action="traitement.php">
+          <p>Date d'arrivée aux urgences : 08/01 &nbsp; &nbsp; &nbsp; &nbsp; Heure d'arrivée : 9h30</p>
+
+          <fieldset>
+            <legend>IDENTITE DU PATIENT</legend>
+            <p>
+                <label>Nom d'usage</label> : <input type="text" /><br />
+                <label>Prénom</label> : <input type="text" /><br />
+                <label>Date de naissance</label> : <input type="date" /><br />
+                <label>Situation de famille</label> : <input type="text" /><br />
+                <label>Adresse</label> : <input type="text" /><br />
+                <label>Code postal</label> : <input type="text" />
+                &nbsp; &nbsp; &nbsp; &nbsp; <label>Ville</label> : <input type="text" /><br />
+                <label>Téléphone</label> : <input type="tel" />
+                &nbsp; &nbsp; &nbsp; &nbsp; <label>Email</label> : <input type="email"> <br />
+            </p>
+            </fieldset>
+
+            <fieldset>
+            <legend>PERSONNE ACCOMPAGNANT LE PATIENT AUX URGENCES</legend>
+                  <input type="radio" name="ACCOMPAGNANT" value="true" id="true" /> <label for="true">Oui</label> &nbsp;
+                  <input type="radio" name="ACCOMPAGNANT" value="true" id="true" /> <label for="false">Non</label><br />
+              <p>
+                <label>Nom d'usage</label> : <input type="text" /><br />
+                <label>Prénom</label> : <input type="text" /><br />
+                <label>Date de naissance</label> : <input type="date" /><br />
+                <label>Situation de famille</label> : <input type="text" /><br />
+                <label>Adresse</label> : <input type="text" /><br />
+                <label>Code postal</label> : <input type="text" />
+                &nbsp; &nbsp; &nbsp; &nbsp; <label>Ville</label><br />
+                <label>Téléphone</label> : <input type="tel" />
+                &nbsp; &nbsp; &nbsp; &nbsp; <label>Email</label> : <input type="email"> <br />
+              </p>
+            </fieldset>
+            <input type="submit" value="Valider" />
+        </form>
+    </body>
+</html>
