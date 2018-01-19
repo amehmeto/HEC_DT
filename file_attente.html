@@ -2,34 +2,29 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Formulaire</title>
+        <link rel="stylesheet" href="style.css" />
+        <title>Attente</title>
     </head>
 
     <body>
-      <h1>File d'attente</h1>
-        <table>
-          <tr>
-            <td>1</td><td>Priorité 1</td>
-          </tr>
-          <tr>
-            <td>3</td><td>Priorité 2</td>
-          </tr>
-          <tr>
-            <td>2</td><td>Priorité 3</td>
-          </tr>
-          <tr>
-            <td>12</td><td>Priorité 4</td>
-          </tr>
-          <tr>
-            <td>4</td><td>Priorité 5</td>
-          </tr>
-          <tr>
-            <td>2</td><td>Non catégorisé</td>
-          </tr>
-        </table>
-        <p>Votre temps d'attente est estimée à : 241 minutes</p>
-        <p>L'ordre de passage est affiché à titre indicatif.
-          Les médecins urgentistes se réservent le droit
-          de le modifier à tout instant selon les besoins.</p>
+      <h1>Votre temps d'attente estime*</h1>
+
+        <div id="round_timer">
+            <p id="time">XX <br \>min</p>
+        </div>
+        
+	
+        <p>*L'ordre de passage peut varie selon l'appreciation des medecins et lesaleas des urgences.</p>
+      <h1>Votre file d'attente</h1>
+        <div id="file_box">
+	  <p>5 - 10 min</p>
+	  <div id="in_box_file">
+          <img />
+          <img />
+          <img />
+          <img />
+          <img />
+	  </div>
+	</div>	
     </body>
 </html>
