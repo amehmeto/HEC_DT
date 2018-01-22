@@ -4,11 +4,18 @@ body
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
+    
 }
 
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
 
 p {
     text-align: center;
+    font-size: 2em;
+    font-style: italic;
 }
 
 #round_timer
@@ -27,4 +34,60 @@ p {
   font: 10vw bold;
   font-family: sans-serif;
   text-align: center;
+}
+
+#queue
+{
+  border: blue solid 3px;
+}
+
+#in_box_file
+{
+  border: solid 5px red;
+  border-radius: 20px;
+  width: 65vw;
+  height: 10vw;
+  padding: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.lil_man
+{
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.red
+{
+  background-color: red;
+}
+
+.orange
+{
+  background-color: orange;
+}
+
+.green
+{
+  background-color: darkseagreen;
+}
+
+.blue
+{
+  background-color: royalblue;
+}
+.space
+{
+  width: inherit;
+}
+
+.doc_man
+{
+  width: 20px;
+  background-color: aqua;
+  border-radius: 10px;
 }
