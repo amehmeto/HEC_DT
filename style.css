@@ -3,6 +3,12 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: sans-serif;
+}
+
+
+p {
+    text-align: center;
 }
 
 #round_timer
@@ -10,7 +16,7 @@ body
   border-radius:50%;
   width: 50vw;
   height: 50vw;
-  border: 5vw solid #679403; 
+  border: 5vw solid green; 
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -18,5 +24,7 @@ body
 
 #time
 {
-  font: 10vw bold sans-serif;
+  font: 10vw bold;
+  font-family: sans-serif;
+  text-align: center;
 }
