@@ -13,8 +13,8 @@ h1 {
 
 p {
   text-align: center;
-  font-size: 2em; 
-  width: 65vw;
+  font-size: 2em;
+  width: 75vw;
 }
 
 #round_timer
@@ -42,13 +42,13 @@ p {
   border-radius: 10px;
   border: solid grey 0.5px;
   box-shadow: 0px 3px 5px grey;
-  margin-bottom: 3vw;
+  margin-bottom: 5vw;
 }
 
 .box p
 {
   align-self: flex-start;
-  font-size: 2em;
+  font-size: 3em;
   text-align: left;
   margin: 2.5vw;
 }
@@ -71,8 +71,25 @@ p {
 
 #priority
 {
+  display: flex;
+  align-items: stretch;
   font-weight: bold;
   color: royalblue;
+}
+
+#i {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  
+  background: royalblue;
+  color: white;
+  text-align: center;
+  
+  display: inline;
+  font: 32px, serif;
+  float: right;
 }
 
 .title p
@@ -85,6 +102,12 @@ p {
   font-weight: normal;
   color: black;
   font-style: italic;
+}
+
+#plan
+{
+  background-image: url(Plan-LRB-2012.png);
+  height: 40vw;
 }
 
 #in_box_file
@@ -100,7 +123,7 @@ p {
 
 .lil_man
 {
-  width: 20px;
+  width: 200px;
   margin-right: 10px;
   border-radius: 10px;
 }
@@ -131,7 +154,7 @@ p {
 
 .doc_man
 {
-  width: 20px;
+  width: 200px;
   background-color: aqua;
   border-radius: 10px;
 }
