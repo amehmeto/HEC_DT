@@ -13,8 +13,7 @@ h1 {
 
 p {
   text-align: center;
-  font-size: 2em;
-  font-style: italic;
+  font-size: 2em; 
   width: 65vw;
 }
 
@@ -36,23 +35,49 @@ p {
   text-align: center;
 }
 
-#queue_box
+.box
 {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   border: solid grey 0.5px;
-  box-shadow: 6px 6px 6px grey;
+  box-shadow: 0px 3px 5px grey;
+  margin-bottom: 3vw;
 }
 
-#queue_box p
+.box p
 {
   align-self: flex-start;
-  margin-left: 3vw;
-  font-weight: bold;
-  font-style: normal;
-  color: royalblue;
+  font-size: 2em;
   text-align: left;
+  margin: 2.5vw;
+}
+
+.title
+{
+  align-self: stretch;
+  background: lightgrey;
+  border-radius: 10px 10px 0px 0px;
+  font-weight: bold;
+  text-align: left;
+  color: black;
+}
+
+#nbr
+{
+  font-size: 2em;
+  color: royalblue;
+}
+
+#priority
+{
+  font-weight: bold;
+  color: royalblue;
+}
+
+.title p
+{
+  font-style: normal;
 }
 
 .subtitle
@@ -64,14 +89,13 @@ p {
 
 #in_box_file
 {
-  border-radius: 20px;
-  width: 65vw;
-  height: 10vw;
-  padding: 3vw;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: stretch;
+  width: 65vw;
+  height: 10vw;
+  margin: 2vw
 }
 
 .lil_man
