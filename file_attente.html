@@ -22,7 +22,7 @@
             <p id="priority">Vous êtes de priorité 4</p><p id="i">i</p>
           </div>
           <div id="in_box_file">
-            <!-- <figure><img src="picto-18.svg" height="300px" /></figure> -->
+            <figure><img src="picto-22.svg" height="300px" /></figure>
             <div class="lil_man blue"></div>
             <div class="lil_man green"></div>
             <div class="lil_man green"></div>
@@ -65,6 +65,14 @@
         <p>Virus</p>
       </div>
     </div>
+    
+      
+      
+  <div id="popup" onclick="myFunction()">Click me!
+    <span class="popuptext" id="myPopup">Popup text...</span>
+  </div>
+      
+  <div id="modal" ></div>
       
     <!-- SCRIPT JAVASCRIPT -->  
       <script type="text/javascript">
@@ -96,6 +104,22 @@
             document.getElementById("time").innerHTML = "EXPIRED";
           }
         }, 1000);
+        
+        
+        // Afficher Popup
+        document.getElementById("i").addEventListener("click", function()
+            {
+              document.getElementById("popup").classList.add("print_popup")
+              document.getElementById("modal").classList.add("print_modal")
+            })
+        // Efface Popup
+        document.getElementById("modal").addEventListener("click", function()
+            {
+              document.getElementById("popup").classList.remove("print_popup")
+              document.getElementById("modal").classList.remove("print_modal")
+            })
+        
+        
       </script>
     </body>
 </html>
