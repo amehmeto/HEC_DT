@@ -74,6 +74,11 @@ p {
   color: royalblue;
 }
 
+#prio_info
+{
+  display: flex;
+}
+
 #priority
 {
   display: flex;
@@ -91,10 +96,7 @@ p {
   background: royalblue;
   color: white;
   text-align: center;
-  
-  display: inline;
   font: 32px, serif;
-  float: right;
 }
 
 .title p
@@ -114,7 +116,7 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: stretch;
-  width: 65vw;
+  width: 85vw;
   height: 10vw;
   margin: 2vw
 }
