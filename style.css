@@ -50,6 +50,32 @@ p {
   margin-bottom: 5vw;
 }
 
+
+.decision
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  border-radius: 30px;
+  border: solid grey 0.5px;
+  box-shadow: 0px 3px 5px grey;
+  margin-bottom: 5vw;
+  
+  height: 20vw;
+  line-height: 20vw;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.urgence
+{
+  border: solid red 10px;
+  border-radius: 200px;
+  background-color: red;
+  color: white;
+}
+
 .box p
 {
   align-self: flex-start;
@@ -76,6 +102,7 @@ p {
 
 #prio_info
 {
+  width: 85vw;
   display: flex;
 }
 
