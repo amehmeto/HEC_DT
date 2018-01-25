@@ -96,8 +96,7 @@ p {
 
 #nbr
 {
-  font-size: 2em;
-  color: royalblue;
+  font-size: 1.5em;
 }
 
 #prio_info
@@ -139,51 +138,25 @@ p {
 
 #in_box_file
 {
+  margin:10px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: flex-end;
   width: 85vw;
   height: 10vw;
-  margin: 2vw
 }
 
-.lil_man
+figure
 {
-  width: 200px;
-  margin-right: 10px;
-  border-radius: 10px;
+  width: 20px;
+  margin: 20px;
+  margin-bottom: 10px;
 }
 
-.red
-{
-  background-color: red;
-}
-
-.orange
-{
-  background-color: orange;
-}
-
-.green
-{
-  background-color: darkseagreen;
-}
-
-.blue
-{
-  background-color: royalblue;
-}
 .space
 {
   width: inherit;
-}
-
-.doc_man
-{
-  width: 200px;
-  background-color: aqua;
-  border-radius: 10px;
 }
 
 #popup
@@ -191,9 +164,11 @@ p {
   top: 10%;
   position: fixed;
   width: 80%;
-  height: 80%;
+  height: 73%;
+  padding: 5%;
   z-index: 3;
   display: none;
+
 }
 
 #popup.print_popup
@@ -202,6 +177,7 @@ p {
   background-color: white;
   border: grey solid 2px;
   border-radius: 20px;
+  text-align: justify;
 }
 
 #modal
@@ -218,4 +194,40 @@ p {
 #modal.print_modal
 {
   display: block;
+}
+
+.priority_red
+{
+  color: red;
+  font-weight: bold;
+}
+
+#popup p
+{
+  width: 100%;
+  text-align: justify;
+}
+
+.priority_orange
+{
+  color: orangered;
+  font-weight: bold;
+}
+
+.priority_yellow
+{
+  color: orange;
+  font-weight: bold;
+}
+
+.priority_green
+{
+  color: forestgreen;
+  font-weight: bold;
+}
+
+.priority_blue
+{
+  color: royalblue;
+  font-weight: bold;
 }
