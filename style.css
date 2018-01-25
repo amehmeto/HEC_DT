@@ -14,7 +14,7 @@ h1 {
 p {
   text-align: center;
   font-size: 2em;
-  width: 75vw;
+  width: 85vw;
 }
 
 #round_timer
@@ -33,6 +33,11 @@ p {
   font: 10vw bold;
   font-family: sans-serif;
   text-align: center;
+}
+
+#disclaim
+{
+  font-style: italic;
 }
 
 .box
@@ -95,13 +100,6 @@ p {
 .title p
 {
   font-style: normal;
-}
-
-.subtitle
-{
-  font-weight: normal;
-  color: black;
-  font-style: italic;
 }
 
 #plan
