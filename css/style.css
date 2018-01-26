@@ -3,18 +3,21 @@ body
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: sans-serif;    
+  font-family: sans-serif;
+  background-color: #E9EFFA;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
+  color: #545454;
 }
 
 p {
   text-align: center;
   font-size: 2em;
   width: 85vw;
+  color: #545454;
 }
 
 #round_timer
@@ -22,7 +25,7 @@ p {
   border-radius:50%;
   width: 50vw;
   height: 50vw;
-  border: 5vw solid green; 
+  border: 10vw solid #5081BB; 
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -48,6 +51,7 @@ p {
   border: solid grey 0.5px;
   box-shadow: 0px 3px 5px grey;
   margin-bottom: 5vw;
+  background-color: white
 }
 
 
@@ -87,11 +91,17 @@ p {
 .title
 {
   align-self: stretch;
-  background: lightgrey;
+  background: #4686DA;
   border-radius: 10px 10px 0px 0px;
   font-weight: bold;
-  text-align: left;
-  color: black;
+
+  color: white;
+}
+
+.title p
+{
+  color: white;
+    text-align: center;
 }
 
 #nbr
@@ -128,6 +138,12 @@ p {
 .title p
 {
   font-style: normal;
+}
+
+#maps
+{
+  background-image: url(../img/maps.png);
+  height: 40vw;
 }
 
 #plan
