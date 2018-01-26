@@ -11,11 +11,27 @@
 
         <div class="box">
           <div class="title"><p>Payer vos soins</p></div>
-          <div id="prio_info">
+          <div>
             <p>Vous êtes redevable de 231 euros</p>
-            <p style="font-weight: bold">Télécharger la facture (PDF)</p>
+            <BR />
+            <p style="font-weight: bold; text-align: center">Télécharger la facture (PDF)</p>
           </div>
-          <div id="in_box_file">
+          <div >
+            <form method="post" action="traitement.php">
+              <p>
+                  <label for="pseudo">Numéro de carte bancaire :</label>
+                  <br />
+                  <input type="text" name="pseudo" id="pseudo" />
+                  
+                  <br />
+                  <label for="pass">Code de sécurité :</label>
+                  <br />
+                  <input type="text" name="pass" id="pass" />
+                  <br />
+                  <label for="pass">Date d'expiration :</label>
+                  <input type="text" name="pass" id="pass" />
+              </p>
+            </form>
           </div>
 	</div>
 
@@ -28,7 +44,7 @@
     </div>
       
     <div class="box">
-      <div class="title"><p>Trouver un specialiste pour la suite de vos soins</p></div>
+      <div class="title"><p>Trouver un spécialiste</p></div>
       <div>
         <p>Rechercher sur Doctolib</p>
       </div>

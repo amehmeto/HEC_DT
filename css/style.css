@@ -163,6 +163,17 @@ p {
   height: 10vw;
 }
 
+#in_box_file2
+{
+  margin:10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 85vw;
+  height: 10vw;
+}
+
 figure
 {
   width: 20px;
